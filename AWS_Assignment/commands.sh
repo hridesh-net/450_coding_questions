@@ -42,3 +42,23 @@ sudo update-alternatives --config python
 
 # To switch b/w java version
 sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_version/bin/java
+# OR 
+sudo update-alternatives --config java
+
+# To list available versions of jdk or java
+update-java-alternatives --list
+
+
+## Installing Tomcat
+
+sudo apt update
+
+# check for available apache Tomcat package
+sudo apt-cache search Tomcat
+
+#install apache tomcat
+sudo apt install tomcat9 tomcat9-admin
+
+#check ports
+ss -lt
+n
