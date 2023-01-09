@@ -40,6 +40,14 @@ ls /usr/bin/python*
 # to set Python 3 as default or first version in the priority list, simply update the alternatives list, using this command:
 sudo update-alternatives --config python
 
+
+## install jdk 8
+sudo apt-get install openjdk-8-jdk
+
+## install jdk 17
+sudo apt update
+sudo apt install openjdk-17-jdk
+
 # To switch b/w java version
 sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_version/bin/java
 # OR 
@@ -61,4 +69,3 @@ sudo apt install tomcat9 tomcat9-admin
 
 #check ports
 ss -lt
-n
